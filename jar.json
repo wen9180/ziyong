@@ -104,7 +104,7 @@
       }
     },
     {
-    "key": "小城",
+      "key": "小城",
       "name": "小城影视┃菠菜",
       "type": 3,
       "api": "csp_AppYs",
@@ -135,7 +135,7 @@
       "searchable": 0,
       "changeable": 0,
       "indexs": 0,
-      "style": {x0x0
+      "style": {
         "type": "rect",
         "ratio": 1.597
       }
@@ -219,48 +219,48 @@
       }
     },
     {
-            "key": "米诺",
-            "name": "米诺｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://www.milkidc.cn/",
-                "dataKey": "20c79c979da8db0f",
-                "dataIv": "20c79c979da8db0f",
-                "deviceId": "",
-                "version": ""
-            }
-                },
-        {
-            "key": "云速",
-            "name": "云速｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "http://59.153.167.137:7788/1.json",
-                "dataKey": "4d83b87c4c5ea111",
-                "dataIv": "4d83b87c4c5ea111",
-                "deviceId": "",
-                "version": "105"
-            }
-        },
-        {
-            "key": "客星",
-            "name": "客星｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://api.hiapp.com.cn",
-                "dataKey": "2268331221bobobo",
-                "dataIv": "2268331221bobobo",
-                "deviceId": "",
-                "version": "105"
-            }
-        },
+      "key": "米诺",
+      "name": "米诺｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://www.milkidc.cn/",
+        "dataKey": "20c79c979da8db0f",
+        "dataIv": "20c79c979da8db0f",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "云速",
+      "name": "云速｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "",
+        "site": "http://59.153.167.137:7788/1.json",
+        "dataKey": "4d83b87c4c5ea111",
+        "dataIv": "4d83b87c4c5ea111",
+        "deviceId": "",
+        "version": "105"
+      }
+    },
+    {
+      "key": "客星",
+      "name": "客星｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://api.hiapp.com.cn",
+        "dataKey": "2268331221bobobo",
+        "dataIv": "2268331221bobobo",
+        "deviceId": "",
+        "version": "105"
+      }
+    },
     {
       "key": "YY",
       "name": "YY┃动漫",
@@ -1016,37 +1016,37 @@
       }
     },
     {
-            "key": "咖啡｜APP",
-            "name": "咖啡｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "",
-                "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/2.txt",
-                "dataKey": "qwertyuiopqwertt",
-                "dataIv": "qwertyuiopqwertt",
-                "deviceId": "",
-                "version": "109"
-            }
-        },
+      "key": "咖啡｜APP",
+      "name": "咖啡｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "",
+        "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/2.txt",
+        "dataKey": "qwertyuiopqwertt",
+        "dataIv": "qwertyuiopqwertt",
+        "deviceId": "",
+        "version": "109"
+      }
+    },
     {
-            "key": "橘｜APP",
-            "name": "橘｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "http://172.247.192.138:18520",
-                "dataKey": "SuNlEkOLAoWJj1Oe",
-                "dataIv": "SuNlEkOLAoWJj1Oe",
-                "deviceId": "",
-                "version": ""
-            }
-        },
+      "key": "橘｜APP",
+      "name": "橘｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "http://172.247.192.138:18520",
+        "dataKey": "SuNlEkOLAoWJj1Oe",
+        "dataIv": "SuNlEkOLAoWJj1Oe",
+        "deviceId": "",
+        "version": ""
+      }
+    },
     {
       "key": "雄鹰",
       "name": "雄鹰｜APP",
@@ -1122,18 +1122,18 @@
         "url": "http://tt.ysdqjs.cn"
       }
     },
-     {
-            "key": "追忆",
-            "name": "追忆｜APP",
-            "type": 3,
-            "api": "csp_AppSy",
-            "ext": {
-                "url": "http://110.42.7.130:1866",
-                "key1": "aassddwwxxllsx1x",
-                "key2": "2083c87e98b6ce08",
-                "key3": "2083c87e98b6ce08"
-            }
-        },
+    {
+      "key": "追忆",
+      "name": "追忆｜APP",
+      "type": 3,
+      "api": "csp_AppSy",
+      "ext": {
+        "url": "http://110.42.7.130:1866",
+        "key1": "aassddwwxxllsx1x",
+        "key2": "2083c87e98b6ce08",
+        "key3": "2083c87e98b6ce08"
+      }
+    },
     {
       "key": "星芽短剧",
       "name": "星芽｜短剧",
@@ -1852,9 +1852,6 @@
       "indexs": 0,
       "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/wokaotianshi123/wokaotianshi123.github.io/refs/heads/main/pglblb/gengxin.json"
     },
-
-
-
     {
       "key": "1",
       "name": "1｜影视",

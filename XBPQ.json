@@ -465,15 +465,6 @@
       "filterable": 1
     },
     {
-      "key": "X┃低端影视",
-      "name": "X┃低端｜影视",
-      "type": 3,
-      "api": "csp_Ddys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "X┃机器人",
       "name": "X┃机器人┃影视",
       "type": 3,
@@ -484,32 +475,10 @@
       "ext": "http://v.aikanbot.com"
     },
     {
-      "key": "X┃荐片",
-      "name": "X┃荐片┃磁力",
-      "type": 3,
-      "api": "csp_JianPian",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "X┃本地",
       "name": "X┃本地┃视频",
       "type": 3,
       "api": "csp_LocalFile"
-    },
-    {
-      "key": "X┃csp_MeijuMi",
-      "name": "X┃美剧迷┃磁力",
-      "type": 3,
-      "api": "csp_MeijuMi"
-    },
-    {
-      "key": "X┃csp_MeijuTT",
-      "name": "X┃美剧天堂┃磁力",
-      "type": 3,
-      "api": "csp_MeijuTT"
     },
     {
       "key": "X┃New6v",
@@ -519,29 +488,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "X┃SeedHub",
-      "name": "X┃SeedHub┃磁力",
-      "type": 3,
-      "api": "csp_SeedHub",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "X┃csp_Yisou",
-      "name": "X┃易搜┃搜索",
-      "type": 3,
-      "api": "csp_Yisou",
-      "ext": "77c9aa84a92e4963a47f5e2bdb7d48b9"
-    },
-    {
-      "key": "X┃csp_Zhaozy",
-      "name": "X┃找资源┃搜索",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "ext": "{\"username\":\"zzygll2\",\"password\":\"zzy555555\",\"searchurl\":\"https://zhaoziyuan1.cc/so?filename={wd}\"}"
     },
     {
       "key": "1",

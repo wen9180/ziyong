@@ -1,10 +1,29 @@
+"""
+@header({
+  searchable: 1,
+  filterable: 1,
+  quickSearch: 1,
+  title: 'AppV1',
+  lang: 'hipy'
+})
+"""
+
 # -*- coding: utf-8 -*-
 # by @嗷呜
 import sys
-sys.path.append('..')
-from base.spider import Spider
 
-class Spider(Spider):
+sys.path.append('..')
+try:
+    # from base.spider import Spider as BaseSpider
+    from base.spider import BaseSpider
+except ImportError:
+    from t4.base.spider import BaseSpider
+
+
+class Spider(BaseSpider):
+
+    def __init__(self, query_params=None, t4_api=None):
+        super().__init__(query_params=query_params, t4_api=t4_api)
 
     def init(self, extend=""):
         '''
@@ -21,11 +40,11 @@ class Spider(Spider):
         }
         
         '''
-        self.host=extend
+        self.host = self.extend.strip()
         pass
 
     def getName(self):
-        pass
+        return 'AppV1'
 
     def isVideoFormat(self, url):
         pass
@@ -41,7 +60,7 @@ class Spider(Spider):
     }
 
     def homeContent(self, filter):
-        data = self.fetch(f"{self.host}/api.php/v1.vod/types",headers=self.headers).json()
+        data = self.fetch(f"{self.host}/v1.vod/types", headers=self.headers).json()
         keys = ["class", "area", "year"]
         filters = {}
         classes = []
@@ -67,32 +86,31 @@ class Spider(Spider):
         return result
 
     def homeVideoContent(self):
-        data=self.fetch(f"{self.host}/api.php/v1.vod",headers=self.headers).json()
-        videos=data['data']['list']
-        return {'list':videos}
+        data = self.fetch(f"{self.host}/v1.vod", headers=self.headers).json()
+        videos = data['data']['list']
+        return {'list': videos}
 
     def categoryContent(self, tid, pg, filter, extend):
 
-        params = {'type':tid,'class':extend.get('class',''),'area':extend.get('area',''),'year':extend.get('year',''),'limit':'18','page':pg}
-        data=self.fetch(f"{self.host}/api.php/v1.vod",params=params,headers=self.headers).json()
-        videos=data['data']
+        params = {'type': tid, 'class': extend.get('class', ''), 'area': extend.get('area', ''),
+                  'year': extend.get('year', ''), 'limit': '18', 'page': pg}
+        data = self.fetch(f"{self.host}/v1.vod", params=params, headers=self.headers).json()
+        videos = data['data']
         return videos
 
     def detailContent(self, ids):
-        data=self.fetch(f"{self.host}/api.php/v1.vod/detail?vod_id={ids[0]}",headers=self.headers).json()
-        return  {'list':[data['data']]}
+        data = self.fetch(f"{self.host}/v1.vod/detail?vod_id={ids[0]}", headers=self.headers).json()
+        return {'list': [data['data']]}
 
     def searchContent(self, key, quick, pg="1"):
-        data=self.fetch(f"{self.host}/api.php/v1.vod?wd={key}&page={pg}",headers=self.headers).json()
-        videos=data['data']['list']
+        data = self.fetch(f"{self.host}/v1.vod?wd={key}&page={pg}", headers=self.headers).json()
+        videos = data['data']['list']
         for item in data['data']['list']:
             item.pop('type', None)
-        return {'list':videos,'page':pg}
+        return {'list': videos, 'page': pg}
 
     def playerContent(self, flag, id, vipFlags):
-        return  {'jx':1,'playUrl':'','parse': 1, 'url': id, 'header': self.headers}
+        return {'jx': 1, 'playUrl': '', 'parse': 1, 'url': id, 'header': self.headers}
 
     def localProxy(self, param):
         pass
-
-

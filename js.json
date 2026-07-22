@@ -4,6 +4,13 @@
   "logo": "./img/ICONSGIF.gif",
   "sites": [
     {
+      "key": "哔哩哔哩",
+      "name": "👑｜哔哩｜4K",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/我的哔哩.js"
+    },
+    {
       "key": "JS┃彼岸1",
       "name": "JS┃彼岸4K",
       "type": 3,

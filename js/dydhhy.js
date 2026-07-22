@@ -14,8 +14,8 @@ var rule = {
         'Cookie': ''
     },
     timeout: 5000,
-    class_name: '电视剧&电影&美剧&韩剧&日剧&英剧&2023&2022&2021',
-    class_url: 'tv&movie&美剧&韩剧&日剧&英剧&2023&2022&2021',
+    class_name: '电视剧&电影&美剧&韩剧&日剧&英剧&2026&2025&2024',
+    class_url: 'tv&movie&美剧&韩剧&日剧&英剧&2026&2025&2024',
     play_parse: true,
     play_json: [{
         re: '*',
