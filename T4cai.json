@@ -318,6 +318,17 @@
       "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
     },
     {
+            "key": "采集┃新4K⁽ᵃᵖⁱ⁾",
+            "name": "采集┃新₄ᴋ",
+            "type": 1,
+            "api": "http://cmsyun2.qijiyun.vip/api.php/provide/vod/",
+            "style": {
+                "type": "rect",
+                "ratio": 0.68
+            },
+            "changeable": 1
+        },
+    {
       "key": "采集┃豆瓣",
       "name": "采集┃豆瓣1080",
       "type": 1,
