@@ -1,6 +1,26 @@
 {
   "spider": "./jar/XBPQ.jar",
   "sites": [
+        {
+            "key": "果果短剧1",
+            "name": "果果1 • 短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "https://www.mochadj.com/;;"
+        },
+        {
+            "key": "果果短剧2",
+            "name": "果果2 • 短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {"分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"}
+        },
+    {
+      "key": "免扫码丨网盘",
+      "name": "👖免扫码丨网盘",
+      "type": 4,
+      "api": "http://by.bfzyapi.com/api.php/provide/vod"
+    },
     {
       "key": "哔哩音乐",
       "name": "👖哔哩丨音乐",
@@ -14,9 +34,26 @@
       "api": "http://jiduo.3116598.xyz/PHP/pkty.php"
     },
 
-
-
-
+        {
+            "key": "爱剧",
+            "name": "❤️爱剧丨影视",
+            "type": 3,
+            "api": "./py/ppx.py",
+            "ext": "http://43.248.117.123:4680"
+        },
+        {
+            "key": "魔方",
+            "name": "魔方",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet","jar": "./tvbox/spider.jar",
+            "ext": {
+                "url": "https://www.douy32mf.top",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321"
+            }
+        },
 
 
   { "key": "段老师短剧", "name": "段老师短剧", "type":3,"api":"csp_XBPQ", "ext": {"请求头":"手机","简介":"剧情介绍:+剧情深入剖析&&</section>","标题":"video-card-title\">&&</h3>","副标题":"fas fa-user\">&&</span>","分类url":"https://www.duanlaoshi.cc/{cateId}/index_{catePg}.html[https://www.duanlaoshi.cc/{cateId}/index.html]","分类":"都市$dushiduanju#穿越$chuanyueduanju#悬疑$xuanyiduanju#重生$chongshengduanju#霸总$bazongduanju"}},
